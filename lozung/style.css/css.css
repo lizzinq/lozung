@@ -1,0 +1,40 @@
+body {
+    margin: 150px;
+    padding:50px;
+    border: 3px solid brown;
+}
+@font-face {
+    font-family: font;
+    src: url(../fonts/PF\ Playskool\ Pro\ 3D\ Regular.ttf);
+}
+
+*{
+    font-family:"font";
+}
+
+.main {
+    background-color: rgb(51, 121, 250);
+} 
+
+.header {
+    display: inline-block;
+    border: 1px solid rgb(141, 114, 120);
+    background: rgba(167, 135, 135, 0.432);
+    color: rgb(94, 44, 44);
+    padding: 2px 10px 5px 20px;
+    margin: 5px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.vxod {
+    display: inline-block;
+    border: 1px solid rgb(33, 31, 161);
+    background: rgba(167, 135, 135, 0.432);
+    color: rgb(94, 44, 44);
+    padding: 2px 10px 5px 20px;
+    margin: 5px;
+    border-radius: 50px;
+    
+
+}
